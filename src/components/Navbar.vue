@@ -93,6 +93,15 @@
               Saved
             </router-link>
           </li>
+          <li>
+            <router-link
+              to="/history"
+              class="block py-2 pl-3 pr-4 text-gray-700 hover:text-pink-500 md:p-0"
+              active-class="block rounded bg-gray-700 py-2 pl-3 pr-4 text-white md:bg-transparent md:p-0 md:text-pink-500"
+            >
+              History
+            </router-link>
+          </li>
         </ul>
       </div>
     </div>

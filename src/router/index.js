@@ -17,6 +17,12 @@ const routes = [
     component: () => import('/src/views/ProductList.vue')
   },
   {
+    path: '/products/:id',
+    name: 'ProductDetail',
+    component: () => import('/src/views/ProductDetail.vue'),
+    props: true
+  },
+  {
     path: '/cart',
     name: 'Cart',
     component: () => import('/src/views/Cart.vue')
@@ -25,6 +31,11 @@ const routes = [
     path: '/saved',
     name: 'Saved',
     component: () => import('/src/views/Saved.vue')
+  },
+  {
+    path: '/history',
+    name: 'History',
+    component: () => import('/src/views/History.vue')
   }
 ]
 
