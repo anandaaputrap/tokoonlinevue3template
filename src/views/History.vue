@@ -156,7 +156,7 @@ export default {
           items: [
             {
               id: 8,
-              name: "Ponyo's Ocean Bloom",
+              name: "Ponyo's Ocean Bloomm",
               price: 350000,
               quantity: 1,
               image: "/gambar/Desain tanpa judul 8.png",
