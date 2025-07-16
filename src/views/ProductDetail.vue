@@ -121,12 +121,10 @@ const fetchProduct = async () => {
   }
 }
 
-// Computed
 const isInWishlist = computed(() => {
   return wishlist.value.some(item => item.id === product.value.id)
 })
 
-// Methods
 const calculateOriginalPrice = (price, discount) => {
   return (price / (1 - discount/100)).toFixed(2)
 }
@@ -144,7 +142,6 @@ const toggleWishlist = () => {
   localStorage.setItem('wishlist', JSON.stringify(wishlist.value))
 }
 
-// Lifecycle
 onMounted(() => {
   fetchProduct()
 })
