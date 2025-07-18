@@ -106,7 +106,7 @@
             />
           </svg>
           <h3 class="mt-4 text-lg font-medium text-gray-900">No orders found</h3>
-          <p class="mt-1 text-gray-500">Your purchase history will aappear here</p>
+          <p class="mt-1 text-gray-500">Your purchase history will appear here</p>
         </div>
       </div>
     </main>
